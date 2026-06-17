@@ -1,4 +1,4 @@
-# @zd~/iconfont-cli
+# @zdecode/iconfont-cli
 
 一个基于 [Iconfont](https://www.iconfont.cn/) 自动生成 React/Vue 组件的 CLI 工具，免除字体依赖，提供多种实现方式，支持 TaroJS 和 UniApp。
 
@@ -11,7 +11,7 @@
 2. **在线 JS 引用方式**
    Symbol 字体图标的在线 JS 方式无法兼容小程序环境。
 
-### @zd~/iconfont-cli
+### @zdecode/iconfont-cli
 
 - **自动化**：仅需简单配置，快速生成组件。
 - **类型支持**：内置类型定义，即使你不使用 TypeScript 也能获得良好的开发体验。
@@ -30,7 +30,7 @@
 1. **运行命令**
 
 ```shell
-npx @zd~/iconfont-cli@latest
+npx @zdecode/iconfont-cli@latest
 ```
 
 3. **根据命令提示完成你的配置**
@@ -164,7 +164,7 @@ export function Iconfont({
 更新在线图标后，只需再次运行以下命令即可同步更新：
 
 ```shell
-npx @zd~/iconfont-cli@latest
+npx @zdecode/iconfont-cli@latest
 ```
 
 6.  **推荐脚本配置**
@@ -174,8 +174,8 @@ npx @zd~/iconfont-cli@latest
 ```json
 {
   "scripts": {
-    "update-iconfont": "npx @zd~/iconfont-cli@latest",
-    "update-iconfont:force": "npx @zd~/iconfont-cli@latest --force"
+    "update-iconfont": "npx @zdecode/iconfont-cli@latest",
+    "update-iconfont:force": "npx @zdecode/iconfont-cli@latest --force"
   }
 }
 ```
@@ -189,7 +189,7 @@ npx @zd~/iconfont-cli@latest
   如果需要覆盖文件并重新创建，请使用以下命令：
 
   ```shell
-  npx @zd~/iconfont-cli@latest --force
+  npx @zdecode/iconfont-cli@latest --force
   ```
 
 - 实现方式
